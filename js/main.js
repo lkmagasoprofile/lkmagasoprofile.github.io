@@ -29,19 +29,33 @@
     })
 
     function initMap(){
-        var location = new google.maps.LatLng(14.4266345, 120.9997435);
+        // var location = new google.maps.LatLng(14.4266345, 120.9997435);
 
-        var mapCanvas = document.getElementById('map');
-        var mapOptions = {
-            center: location,
-            zoom: 16,
-            panControl: false,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
+        // var mapCanvas = document.getElementById('map');
+        // var mapOptions = {
+        //     center: location,
+        //     zoom: 4,
+        //     panControl: false,
+        //     mapTypeId: google.maps.MapTypeId.ROADMAP
+        // }
+        // var map = new google.maps.Map(mapCanvas, mapOptions);
+
+        var uluru = {lat: 14.4266345, lng: 120.9997435};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+
     }
     
     google.maps.event.addDomListener(window, 'load', initMap);
+
+    
+
     
 
 })(jQuery); // End of use strict
