@@ -29,7 +29,7 @@
     })
 
     function initMap(){
-        var location = new google.maps.LatLng(50.0875726, 14.4189987);
+        var location = new google.maps.LatLng(14.4266345, 120.9997435);
 
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
