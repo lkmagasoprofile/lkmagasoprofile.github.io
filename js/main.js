@@ -1,5 +1,16 @@
+var config = {};
+
+
 (function($) {
     "use strict"; // Start of use strict
+
+    // -- CONFIG
+    config = {
+        urlDeveloper: "webdeveloper.html",
+        urlPhotography: "photography.html",
+        urlTravelLogue: "index.html"
+    }
+
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
@@ -54,8 +65,15 @@
     
     google.maps.event.addDomListener(window, 'load', initMap);
 
+
     
 
+    //-- capture all click events
+    $("#btnKnowMore").on("click", function(){ 
+        window.open(config.urlDeveloper, "_self")
+        return false;
+    });
+    
     
 
 })(jQuery); // End of use strict

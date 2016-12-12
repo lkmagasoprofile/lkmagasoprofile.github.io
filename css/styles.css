@@ -12,9 +12,9 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: #689F38;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 300px;
 }
 hr.light {
   border-color: white;
@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: #689F38;
 }
 .bg-dark {
   background-color: #222222;
@@ -70,14 +70,14 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color: #689f38;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #8bc34a;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -94,11 +94,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #689f38;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #689f38 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -130,12 +130,12 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #689f38;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #8bc34a;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -143,7 +143,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #689f38;
   }
 }
 header {
@@ -235,7 +235,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(104, 159, 56, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -297,6 +297,8 @@ header .header-content .header-content-inner p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+
+/* Button styles*/
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -339,8 +341,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #689f38;
+  border-color: #689f38;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -352,8 +354,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: #8BC34A;
+  border-color: #8BC34A;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -405,6 +407,8 @@ fieldset[disabled] .btn-primary.active {
   text-shadow: none;
   background: #222222;
 }
+
+
 img::selection {
   color: white;
   background: transparent;
@@ -416,6 +420,8 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+
 .center-justified {
     text-align: justify;
     -moz-text-align-last: center;
@@ -432,6 +438,11 @@ body {
 .title-padding{
   padding-top: 50px;
 }
+.icons{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
 #map{
   width: 100%;
   height: 500px;
@@ -439,4 +450,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+#travelogue{
+  padding-bottom: 80px;
 }
