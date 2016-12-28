@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/profile.css",
+	"sources": [
+		"../scss/profile.scss"
+	],
+	"sourcesContent": [
+		"body{\r\n\tbackground-color: red;\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACH,gBAAgB,EAAE,GAAI;CACtB",
+	"names": []
+}

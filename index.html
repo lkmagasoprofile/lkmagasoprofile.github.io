@@ -8,9 +8,16 @@
 		/*p:not(:first-child){
     border-top:1px solid #000;
 }*/
+		html {
+		  	height: 100%;
+		  	box-sizing: border-box;
+		  	font-family: Helvetica;
+			font-size: 16pt;
+			font-weight: bold;
+		}
 
 		body{
-			background-color: #A5A5A5;
+			background-color: #b9b9b9;
 			margin: 0px;
 		}
 		.content{
@@ -27,10 +34,10 @@
 		.name-bg{
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,a5a5a5+49,a5a5a5+100 */
 			background: #ffffff; /* Old browsers */
-			background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #a5a5a5 49%, #a5a5a5 100%); /* FF3.6-15 */
-			background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#a5a5a5 49%,#a5a5a5 100%); /* Chrome10-25,Safari5.1-6 */
-			background: radial-gradient(ellipse at center, #ffffff 0%,#a5a5a5 49%,#a5a5a5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a5a5a5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+			background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #b9b9b9 49%, #b9b9b9 100%); /* FF3.6-15 */
+			background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#b9b9b9 49%,#b9b9b9 100%); /* Chrome10-25,Safari5.1-6 */
+			background: radial-gradient(ellipse at center, #ffffff 0%,#b9b9b9 49%,#b9b9b9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b9b9b9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 		}
 
 		#name-grp{
@@ -52,19 +59,30 @@
 			text-align: center;
 			padding-top: 12px;
 		}
+		.footer {
+		  position: absolute;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  padding: 1rem;
+		  text-align: center;
+		  font-weight: ;
+		}
 		span a{
-			color: #999999;
-			font-family: Helvetica;
-			font-size: 16pt;
+			color: #757575;
+			
 			text-decoration: none;
 		}
 		a:hover{
-			color: orange;
+			color: #ff5722;
 		}
 		span:first-child{
 			/*background-color: green;*/
 			padding-right: 6px;
 		}
+
+
+		
 
 		/* Portrait and Landscape */
 		/*@media only screen and (max-device-width: 480px) {*/
@@ -78,11 +96,20 @@
 		    span a{
 				font-size: 13pt;
 		    }
+		    .content{
+				width: 400px;
+				height: 400px;
+				margin-left: -200px;
+				margin-top: -200px;
+		    }
 	    	.name {
 	  			background-image: url(img/small-name.png);
 	  			width: 258px;
 		  		height: 192px;
 	  		}
+	  		span a{
+				font-size: 22pt;
+			}
 		}
 
 
@@ -109,7 +136,9 @@
 		</div> 
 	</div>
 	
-   
+	<footer class="footer">
+		<span><a href="profile.html">PROFILE</a></span>
+	</footer>
 	
 </body>
 </html>
