@@ -1,6 +1,13 @@
-/* line 1, C:/Users/kelvin/Desktop/GIT/lkmagasoprofile.github.io/scss/profile.scss */
-body {
-  background-color: red;
-}
+#header-holder #logo {
+  padding-right: 0px; }
 
-/*# sourceMappingURL=../css/profile.map */
+#profile-body {
+  font-family: Helvetica;
+  font-size: 15pt; }
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none; }
+
+/*# sourceMappingURL=profile.css.map */
