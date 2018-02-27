@@ -6,9 +6,9 @@ var config = {};
 
     // -- CONFIG
     config = {
-        urlDeveloper: "webdeveloper.html",
-        urlPhotography: "photography.html",
-        urlTravelLogue: "index.html"
+        urlDeveloper: "profile.html"
+        //urlPhotography: "photography.html",
+        //urlTravelLogue: "index.html"
     }
 
 
